@@ -17,15 +17,22 @@
     }
 
     button {
-        background: black;
+        background-color: black;
         color: white;
+        cursor: pointer;
+    
     }
 
     body.dark{
-        background-color: black;
+        background-color:black;
         color: white;
-
     }
+
+  body.dark button {
+            background-color: white;
+            color: black;
+            border: 2px solid white;
+        }
 
 
    
@@ -39,8 +46,8 @@
 
 <script>
 function makeItDark() {
-    let dark = document.querySelector("body");
-    body.classList.add("dark");
+    let myBody = document.querySelector("body");
+    myBody.classList.add("dark");
 }
     let button = document.querySelector("button");
     button.addEventListener("click", makeItDark);
