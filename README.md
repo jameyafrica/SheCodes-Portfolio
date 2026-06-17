@@ -11,11 +11,11 @@ This repository is a live documentation of my progress through the SheCodes work
 - [x] Week 3: Project Building
 - [x] 🏆 **Basics Final Project: Interactive Dog Fan Page**
 
-### 2. SheCodes Basics Add-on (1 Week)
-- [ ] Week 1: [Placeholder for Homework Name]
-- [ ] 🏆 **Basics Add-on Project**
+### 2. SheCodes Basics Add-on (1 Week) - *Complete* 🏆
+- [x] Week 1: Video Gaming Landing Page (CSS Grid & Transforms)
+- [x] 🏆 **Basics Add-on Project: Dark/Light Theme Toggler**
 
-### 3. SheCodes Plus (8 Weeks)
+### 3. SheCodes Plus (8 Weeks) - *Current* 🚀
 - [ ] Week 1: [Placeholder]
 - [ ] Week 2: [Placeholder]
 - [ ] Week 3: [Placeholder]
