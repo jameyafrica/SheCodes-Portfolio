@@ -16,7 +16,7 @@ This repository is a live documentation of my progress through the SheCodes work
 - [x] 🏆 **Basics Add-on Project: Dark/Light Theme Toggler**
 
 ### 3. SheCodes Plus (8 Weeks) - *Current* 🚀
-- [ ] Week 1: [Placeholder]
+- [x] Week 1: Weather App Basic HTML Structure
 - [ ] Week 2: [Placeholder]
 - [ ] Week 3: [Placeholder]
 - [ ] Week 4: [Placeholder]
