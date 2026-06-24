@@ -17,7 +17,7 @@ This repository is a live documentation of my progress through the SheCodes work
 
 ### 3. SheCodes Plus (8 Weeks) - *Current* 🚀
 - [x] Week 1: Weather App Basic HTML Structure
-- [ ] Week 2: [Placeholder]
+- [x] Week 2: Weather App CSS Styling & Flexbox Layout
 - [ ] Week 3: [Placeholder]
 - [ ] Week 4: [Placeholder]
 - [ ] Week 5: [Placeholder]

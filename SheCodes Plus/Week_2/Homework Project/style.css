@@ -1,0 +1,95 @@
+body {
+    background: #f4f6fa; /* Softer background to match the screenshot vibe */
+    font-family: "Puritan", sans-serif; 
+  }
+  
+  .weather-app {
+    width: 500px;
+    max-width: 500px;
+    margin: 60px auto; 
+    background: #ffffff; /* White card */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05); 
+  }
+  
+  /* --- Form Styling --- */
+  header form {
+    display: flex;
+    gap: 15px; /* Adds space between the input and the button */
+  }
+  
+  input[type="search"] {
+    flex-grow: 1; /* Makes the search bar take up all available horizontal space */
+    padding: 15px;
+    border: none;
+    background-color: #f9f9f9; /* Light grey background */
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    padding: 15px 30px;
+    border: none;
+    background-color: #885df1; /* Purple from the design */
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    opacity: 0.9;
+  }
+  
+  /* --- Line Separator --- */
+  hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  /* --- Weather Content --- */
+  .current-weather {
+    display: flex;
+    justify-content: space-between; /* Pushes text left, temp right */
+    align-items: center; /* Keeps them vertically centered with each other */
+  }
+  
+  h1 {
+    font-family: "Aldrich", sans-serif;
+    font-weight: 400;
+    margin: 0; /* Removing default margins so Flexbox handles spacing */
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  
+  .current-weather p {
+    color: #999999;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
+  .current-weather p strong {
+    color: #D25353;
+    font-weight: normal;
+  }
+  
+  .current-temp {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  /* --- Footer --- */
+  footer {
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    margin-top: 30px;
+  }
+  
+  footer a {
+    color: #885df1;
+    text-decoration: none;
+  }
