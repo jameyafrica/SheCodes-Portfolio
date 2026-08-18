@@ -19,7 +19,7 @@ This repository is a live documentation of my progress through the SheCodes work
 - [x] Week 1: Weather App Basic HTML Structure
 - [x] Week 2: Weather App CSS Styling & Flexbox Layout
 - [x] Week 3: JavaScript Object Lookups & Conditionals
-- [ ] Week 4: [Placeholder]
+- [x] Week 4: Live Date/Time & Search Form Events
 - [ ] Week 5: [Placeholder]
 - [ ] Week 6: [Placeholder]
 - [ ] Week 7: [Placeholder]
