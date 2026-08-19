@@ -1,5 +1,5 @@
 let now = new Date();
-days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 let currentDay = days[now.getDay()];
 
 let currentTime = now.toLocaleTimeString();
@@ -11,7 +11,7 @@ day.innerHTML = `${currentDay} ${currentTime}`;
 
 function displayCity(event) {
     event.preventDefault();
-    let city = document.querySelector(".current-weather")
+    let city = document.querySelector(".current-city")
     
     city.innerHTML = userCity.value;
 }
