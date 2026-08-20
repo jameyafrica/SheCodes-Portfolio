@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SheCodes Plus</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/axios@1.13.2/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <img src="images/logo.png" alt="SheCodes Plus Logo" class="logo" />
+    <h1>JavaScript AJAX</h1>
+
+    <h3>JS Challenge 1</h3>
+    <p>
+      Import Axios to this page
+      <br />
+      <a href="https://github.com/axios/axios">Axios on GitHub</a>
+    </p>
+
+    <h3>JS Challenge 2</h3>
+    <p>
+      Given the API
+      <a href="https://jsonplaceholder.typicode.com/"
+        >https://jsonplaceholder.typicode.com/</a
+      >, get the comments (/comments) and log the API response
+    </p>
+
+    <h3>JS Challenge 3</h3>
+    <p>
+      Log the first comment email from the API response
+    </p>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <h1>axios</h1>
+    <script>
+
+        function displayUsername(response) {
+         
+        let h1 = document.querySelector("h1");
+        response.data.forEach(user => {
+            co
+        });
+        h1.innerHTML = `Hey ${response.data[0].username}`
+        
+        }
+       let apiUrl = "https://jsonplaceholder.typicode.com/users" //api url
+
+       axios.get(apiUrl).then(displayUsername);
+        //we want to get the api url, //calling axios
+        //wont get respose immediately -> bc of internert
+        //then the function that has the "job" or what has to be done
+    </script>
+</body>
+</html> -->
