@@ -1,0 +1,6 @@
+- setup
+- design
+- html
+- css
+- search engine (basic js)
+- api integration
